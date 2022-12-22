@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.logo-txt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: rgb(45, 82, 117);
+    font-weight: 600;
+}
+.logo-txt-light{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(45, 82, 117);
+    font-weight: 200;
+}
+#logo img{
+    width: 4rem;
+    height: 8rem;
+    float: left;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+#logo{
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+.logo-txt{
+    float: right;
+    margin: 2.5rem 0 0.1rem 0.2rem;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 0 3rem 0;
+}
+#logo p{
+    font-size: smaller;
+    color: rgb(18, 61, 100);
+}
+.section1{
+    margin: 0.4em;
+    padding: 0.2em;
+}
+.section1 li{
+    list-style-image: url("Images/180.svg");
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+.section1 ul{
+    display: flex;
+    gap: 1.6em;
+    justify-content: space-between;
+    align-items:center;
+}
+.section1 a{
+    text-decoration: none;
+    color: rgb(45, 82, 117);
+    transition: 0.2s;
+}
+.section1 a:hover,:focus{
+    color: rgb(152, 185, 46);
+    text-decoration: underline;
+}
+.about{
+    background-color: rgb(45, 82, 117);
+    padding: 0.5rem 1rem;
+}
+.about ul{
+    display: flex;
+    gap: 0.6em;
+    justify-content: center;
+    align-items:center;
+}
+.about li{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:medium;
+    font-weight: 600;
+    flex:0.5rem;
+}
+.about a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.about a:hover,:focus{
+    color: rgb(152, 185, 46);
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0 2rem;
+}
+.about img{
+    width: 0.5rem;
+    height: 1rem;
+}
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel img{
+    object-fit: cover;
+    height: 70ex;
+    width: 130ex;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: minmax(20rem,auto);
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16rem;
+}
+main h2{
+    font-size: large;
+    color: rgb(145, 179, 36);
+}
+main img{
+    width: 10rem ;
+    max-height: 12rem;
+    align-self: center;
+}
+.minilogo{
+width: 2.5rem;
+height: 2.5rem;
+}
+.meet-our-physicists p{
+    line-height: 2pc;
+    color: rgb(45, 82, 117);
+    font-weight: 600;
+    padding: 1rem;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title-card{
+    display: flex;
+    justify-content: flex-start;
+}
+.meet-our-physicists img{
+    margin: 0.4rem;
+}
+.upcoming p{
+    line-break: loose;
+    color: rgb(45, 82, 117);
+    font-weight: 600;
+    font-size: smaller;
+    padding: 0.2rem 0.5rem;
+}
+.upcoming img{
+    margin: 0.4rem;
+}
+.mail-search-button{
+    display: flex;
+    padding: 0.5rem;
+}
+.mail-button{
+    width: 7rem;
+    height: 2rem;
+    color: rgb(18, 61, 100);
+    background-color: rgb(199, 231, 103);
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: 1px solid rgb(175, 218, 47);
+}
+.mail-search{
+    border: 1px solid rgb(175, 218, 47);
+    height: 2rem;
+    width: 14rem;
+}
+.follow{
+    padding: 0 0.5rem;
+}
+.special-event{
+    background-color: rgb(199, 231, 103);
+    padding: 0.5rem;
+}
+.special-event .button{
+    width: 4.5rem;
+    height: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 61, 100);
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    margin: 0.4rem;
+    border: 1px solid rgb(45, 82, 117);
+}
+.special-event h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: rgb(18, 61, 100);
+}
+.special-event p{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(18, 61, 100);
+}
+.follow ul{
+    display: flex;
+    gap: 0.6em;
+    justify-content: space-around;
+    align-items:center;
+    padding: 1rem 0.2rem;
+}
+.follow a{
+    text-decoration: none;
+    color: rgb(18, 61, 100);
+    transition: 0.4s;
+}
+.follow a:hover,:focus{
+    color: rgb(45, 82, 117);
+}
+.follow li{
+    list-style:none;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 61, 100);
+    
+    height: 10em;
+    margin: 0 14rem;
+}
+footer h3,h4,p{
+    color: rgb(255, 255, 255);
+}
+.apr{
+    flex: 2;
+    display:block;
+}
+.spr{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.2rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: small;
+    margin: 1rem 0 0 1rem;
+}
+.spr img{
+    width: 0.5rem;
+    height: 1rem;
+}
+.bpr{
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem 0 0 1rem;
+}
+.bpr a{
+  color: rgb(152, 185, 46);
+}
+.bpr p{
+    font-size: x-small;
+    font-weight: 600;
+}
+.bpr-btn{
+    width: 8rem;
+    height: 2rem;
+    color: rgb(18, 61, 100);
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: 2px solid rgb(152, 185, 46);
+    position: relative;
+    top: 10px;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+}
+.make-a-gift img{
+    height: 10rem;
+    width: 23rem;
+    object-fit:fill;
+    position: absolute;
+}
+.make-a-gift{
+    align-self: flex-start;
+    flex: 1;
+}
