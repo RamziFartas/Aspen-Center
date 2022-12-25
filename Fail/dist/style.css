@@ -648,6 +648,10 @@ html{
   flex: 1 1 0%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .auto-rows-max {
   grid-auto-rows: max-content;
 }
@@ -755,6 +759,11 @@ html{
 .bg-amber-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(217 119 6 / var(--tw-bg-opacity));
+}
+
+.bg-amber-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 191 36 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -890,7 +899,36 @@ html{
   color: rgb(226 232 240 / var(--tw-placeholder-opacity));
 }
 
+.placeholder-opacity-0::-moz-placeholder {
+  --tw-placeholder-opacity: 0;
+}
+
+.placeholder-opacity-0::placeholder {
+  --tw-placeholder-opacity: 0;
+}
+
 .hover\:bg-amber-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+}
+
+.focus\:placeholder-opacity-0:focus::-moz-placeholder {
+  --tw-placeholder-opacity: 0;
+}
+
+.focus\:placeholder-opacity-0:focus::placeholder {
+  --tw-placeholder-opacity: 0;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus-visible\:placeholder-opacity-0:focus-visible::-moz-placeholder {
+  --tw-placeholder-opacity: 0;
+}
+
+.focus-visible\:placeholder-opacity-0:focus-visible::placeholder {
+  --tw-placeholder-opacity: 0;
 }
