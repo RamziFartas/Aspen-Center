@@ -652,6 +652,10 @@ html{
   cursor: pointer;
 }
 
+.scroll-m-3 {
+  scroll-margin: 0.75rem;
+}
+
 .auto-rows-max {
   grid-auto-rows: max-content;
 }
@@ -863,6 +867,10 @@ html{
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .tracking-widest {
