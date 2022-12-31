@@ -10,13 +10,12 @@
 <body>
     <div>
         <div class="background w-full h-full bg-no-repeat bg-cover bg-fixed bg-center overflow-hidden">
-            <div class="bg-slate-200 my-8 mx-24 p-10 h-full rounded-md">
-                <div class="grid grid-cols-2 auto-rows-max gap-4 items-center p-8 mb-36 h-fit">
+            <div id="avatar" class="bg-slate-200 my-8 mx-24 p-10 h-full rounded-md max-sm:mx-4">
+                <div class="lg:grid grid-cols-2 auto-rows-max gap-4 items-center p-8 mb-36 h-fit">
                     <div class="flex flex-col gap-6 p-4">
                         <h4 class=" text-sm text-amber-600 tracking-widest">WEB DESIGNER</h4>
                         <h1 class="font-elmessiri text-7xl">Ramzi Fartas</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                           Autem error tenetur explicabo consectetur obcaecati dicta perferendis eligendi ipsa omnis recusandae.
+                        <p class="capitalize">I'm ramzi,an independant degital designer from algeria. i usually work with vanilla javascript without frameork for small projects, allowing me a complete freedom on architecture, a headless cms like prismic for content management, gsap for animations and three.js for webGl.
                         </p>
                      <div class="flex items-center gap-2">
                         <svg class="text-amber-600 w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -30,17 +29,17 @@
                         </div>
                     </div>
 
-                    <div class="place-self-center p-2 bg-gradient-to-b from-amber-700 to-amber-500 rounded-r-full">
+                    <div id="profil" class="place-self-center p-2 bg-gradient-to-b from-amber-700 to-amber-500 rounded-r-full">
                         <img class="rounded-full w-80 h-full" src="Assets/Profil.png" alt="Profil Picture">
                     </div>
                 </div>
-                
+
+                <hr class="my-8 border-amber-600">
         
-                <div class="flex flex-col justify-center items-center gap-3 p-8 h-fit">
-                    <h4 class ="text-sm text-amber-600">Lorem, ipsum.</h4>
+                <div class="md:flex flex-col justify-center items-center gap-3 p-8 h-fit">
+                    <h4 class ="text-sm text-amber-600">Experience</h4>
                     <h1 class="font-elmessiri text-5xl">About Me</h1>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                       Id impedit autem quaerat reiciendis quod assumenda expedita doloribus amet sit mollitia!
+                    <p class="text-center">Web Designer With 2 Years. I Specialize In Creating Minimalist,Clean And High-Converting User Experiences For Web And Mobile.
                     </p>
                     <section class="flex flex-col gap-4 my-10">
                         <div class="flex flex-1 gap-2 items-center">
@@ -55,19 +54,19 @@
                         </div>
                         <button class="text-white bg-amber-600 rounded-md text-sm px-4 py-2.5 hover:bg-amber-500 flex items-center gap-2" type="submit">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                            <p>Lorem.</p>     
+                            <p>Contact Me</p>     
                         </button>
                     </section>
                 </div>
         
                 <div class="grid grid-cols-2 my-16">
-                        <div class="place-self-center m-6">
+                    <div class="place-self-center m-6 ">
                         <h1 class="font-elmessiri text-5xl text-zinc-500 text-center">01</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, incidunt.</p>
+                        <p>Design : Creating a style guide that documents style choices, such as fonts, colors, and other style embellishments, in order to keep the site consistent over time.</p>
                     </div>
-                    <div class="place-self-center m-6">
+                    <div class="place-self-center m-6 ">
                         <h1 class="font-elmessiri text-5xl text-zinc-500 text-center">02</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, debitis!</p>
+                        <p>Code : Creating and trouble-shooting yhe documents, style sheets, scripts, and images that make up the site, as for deployment it can be handled but decision mostly left to the client.</p>
                     </div>
                 </div>
                             <div class="flex flex-col justify-center items-center gap-4 my-8">
@@ -91,17 +90,20 @@
                                 </section>
                             </div>
                             
-                            <div class="h-screen" >
+                            <div class="max-h-screen">
                                 <h1 class="font-elmessiri text-5xl">Projects</h1>
                                 <hr class="my-8 border-amber-600">
-                                <div>
-                                    
+                                <div class="md:flex gap-8 oveflow-hidden p-10">
+                                <a href="https://ramzifartas.github.io/Aspen-Center/" target="_blank" rel="noopener" class="shrink-0"><img src="assets/Aspen Design.png" alt="Aspen Center Page Demo" class=" h-56 w-60 overflow-hidden hover:ring-4 ring-amber-600 cursor-pointer"></a>
+                                <div class="sm:mt-4">
+                                    <h3 class="text-amber-500 font-bold">Aspen-Center Landing Page</h3>
+                                    <p class="text-left capitalize leading-tight">made with pure html css and vanilla js no frameworks or libraries, took me 4 days to finish and deploy</p>
+                                </div>
                                 </div>
                             </div>
-                            <div >
-        
-                            </div>
-                            <div class="bg-amber-600 py-20 px-14">
+                            
+
+                            <div class="bg-amber-600 w-50% py-20 px-14 overflow-hidden sm:mt-4">
                                 <form action="" method="get">
                                     <div >
                                         <label for="name"></label>
@@ -128,9 +130,11 @@
                             </div>
 
                             <footer>
+
                                 <div class="flex items-center gap-2 my-2">
                                     <p class="font-elmessiri">Made With Tailwindcss</p>
                                     <span><img class="w-8 h-8" src="assets/tailwind-css-icon.svg" alt="Tailwind-css-logo"></span>
+                                    <div class="justify-self-end font-elmessiri"><p>2022 &copy;All Rights Reserved</p></div>
                                 </div>
                             
                             </footer>
@@ -139,5 +143,10 @@
             </div>
     </div>
 
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
 </body>
+
 </html>
